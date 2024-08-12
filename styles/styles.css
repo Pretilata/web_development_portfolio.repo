@@ -1,0 +1,61 @@
+body{
+
+    font-family: "lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading-title{
+    /* Mary */
+
+
+width: 121px;
+height: 61px;
+left: 226px;
+top: 51px;
+font-weight: 800;
+font-size: 45px;
+line-height: 61px;
+
+/* Dark 01 */
+color: #181818;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+#button_background{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+   border-radius: 5px;
+    border: 0;
+    Font weight: 700;
+     Font size: 20px;
+
+    padding: 18px 35px 19px 36px;
+
+
+
+
+
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    /* Portfolio Blog */
+   
+    
+
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
