@@ -7,6 +7,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 220px 0px 226px;
 }
 #heading-title{
     /* Mary */
@@ -26,7 +27,7 @@ color: #181818;
 .text-primary{
     color: #FD6E0A;
 }
-#button_background{
+.button_background{
     background-color: #FD6E0A;
     color: #FFFFFF;
    border-radius: 5px;
@@ -35,12 +36,6 @@ color: #181818;
      Font size: 20px;
 
     padding: 18px 35px 19px 36px;
-
-
-
-
-
-
 }
 nav > ul{
     display: flex;
@@ -49,13 +44,42 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 50px;
-    /* Portfolio Blog */
-   
-    
-
-
 }
 nav a{
     text-decoration: none;
     color: #474747;
 }
+
+.header{
+    background-color: rgb(255, 255, 255);
+}
+.banner{
+    margin: 0px 38px 0px 230px;
+    display: flex;
+    align-items: center;
+}
+#banner-greeting{
+    
+    color: rgb(71, 71, 71);
+    
+
+}
+#banner-name{
+    
+    
+    color: rgb(24, 24, 24);
+
+}
+#contact{
+    color: rgb(253, 110, 10);
+    
+    padding: 19px 23.5px 18px 58.5px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+
+}
+div img{
+    Width:500px;
+    Height:600px;
+}
+
