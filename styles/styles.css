@@ -4,6 +4,7 @@ body{
   font-family: "Open Sans", sans-serif;
   
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -63,6 +64,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
     
+    
 
 }
 .banner{
@@ -112,7 +114,20 @@ nav a{
     Width:500px;
     Height:600px;
 }
-
+aside{
+    float:left;
+   Width: 774px;
+   Height: 136px;
+   Top: 812px;
+   Left: 23px;
+   font-weight:700px;
+   font-size:100px;
+   Row height:136px;
+   Letter spacing:33%
+}
+.image{
+   
+}
 
 .aboutme{
     text-align:center;
@@ -120,6 +135,7 @@ nav a{
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 0px;
+    margin-top: 130px;
 }
 .about{
     margin: 15px auto;
@@ -162,6 +178,37 @@ main{
     margin:30px auto;
     text-align: center;
 
+}
+
+.skill > img{
+    Width:44px;
+    Height:44px;
+
+}
+.skill-topic{
+    display:flex;
+    gap:24px;
+    justify-content: space-around;
+}
+.skill{
+    border-radius:5px;
+    padding:30px ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: Outside shadow
+    X:0 Y:6 Blur: 50 extension: 0 rgba(0, 0, 0, 0.10);
+}
+.skill-derevative {
+    margin-top: 20px;
+    color: rgb(24, 24, 24);
+}
+.skill-heading{
+    margin-top: 30px;
+}
+#resume{
+    margin-top: 130px;
+}
+#what-do-i{
+    margin-top: 130px;
 }
 
 
