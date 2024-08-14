@@ -2,6 +2,7 @@ body{
 
     font-family: "lato", sans-serif;
   font-family: "Open Sans", sans-serif;
+  
 }
 nav{
     display: flex;
@@ -32,8 +33,8 @@ color: #181818;
     color: #FFFFFF;
    border-radius: 5px;
     border: 0;
-    Font weight: 700;
-     Font size: 20px;
+    font-weight: 700;
+     font-size: 20px;
 
     padding: 18px 35px 19px 36px;
 }
@@ -48,26 +49,46 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+ 
+   font-size: 20px;
+   font-weight: 400;
+
+
 }
 
 .header{
-    background-color: rgb(255, 255, 255);
+    
+     background: rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+
 }
 .banner{
-    margin: 0px 38px 0px 230px;
+    padding: 0px 38px 0px 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    Width:585px;
+    Height:356px;
 }
 #banner-greeting{
     
     color: rgb(71, 71, 71);
-    
-
+    font-weight:600px;
+    font-size: 45px;
+    margin-bottom: 0px;
 }
 #banner-name{
     
-    
     color: rgb(24, 24, 24);
+    font-weight: 700px;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 
 }
 #contact{
@@ -76,10 +97,66 @@ nav a{
     padding: 19px 23.5px 18px 58.5px;
     border-radius: 5px;
     border-color: #FD6E0A;
+    font-weight: 700px;
+    font-size: 20px;
+
 
 }
-div img{
+#banner-paragraph{
+    font-weight: 400px;
+
+    font-size: 18px;
+    margin-top: 0px;
+}
+ img{
     Width:500px;
     Height:600px;
 }
+
+
+.aboutme{
+    text-align:center;
+    color:rgb(24, 24, 24);
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.about{
+    margin: 15px auto;
+    padding:131px 157px 132px 156px;
+    background-color: rgb(255, 255, 255);
+}
+.about_text{
+    font-weight: 400px;
+    font-size: 18px;
+    color:rgb(117, 117, 117);
+    margin-top: 30px;
+}
+main{
+    Width: 1140px;
+   Height: 550px;
+   margin: 0px auto;
+
+}
+.about-info{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+ .info-heading{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+.info{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 20px;
+
+}
+
+
+
+
 
