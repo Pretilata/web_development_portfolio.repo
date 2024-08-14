@@ -131,6 +131,7 @@ nav a{
     font-size: 18px;
     color:rgb(117, 117, 117);
     margin-top: 30px;
+    text-align: center;
 }
 main{
     Width: 1140px;
@@ -153,6 +154,13 @@ main{
     text-align: center;
     font-weight: 400px;
     font-size: 20px;
+
+}
+#what-content{
+    Width:909px;
+    Height:90px;
+    margin:30px auto;
+    text-align: center;
 
 }
 
