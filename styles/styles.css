@@ -210,7 +210,40 @@ main{
 #what-do-i{
     margin-top: 130px;
 }
+#resume{
+    margin-bottom: 131px;
+}
+.resume_title{
+    font-weight: 700px;
 
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 30px;
+
+}
+.resume-content{
+    display: flex;
+    gap: 71px;
+    justify-content: space-around;
+}
+.resume-header{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+.resume-institute{
+    font-weight: 600px;
+    font-size: 20px;
+    color:rgb(117, 117, 117);
+    margin-bottom: 20px;
+
+}
+.resume-discription{
+    font-size: 16px;
+    font-weight: 400px;
+    color:rgb(117, 117, 117);
+}
 
 
 
